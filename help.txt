@@ -1,0 +1,17 @@
+Install
+
+1. Go the folder where requirements.txt is installed
+2. run the command
+
+pip install -r requirements.txt
+
+3. Now run the command
+
+python manage.py runserver localhost:8090 (can change 8090 bu any value like 1234, if an error occurs, like port is busy)
+
+
+API ENDPOINTS
+
+http://localhost:8090/buses - returns all the BUS IDS in JSON FORMAT
+
+http://localhost:8090/getBusData?id=DMR5054 - returns all the Data related to that bus ID (Sorted according to Time)
