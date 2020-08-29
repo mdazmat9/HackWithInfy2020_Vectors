@@ -1,0 +1,25 @@
+
+
+.pagebody{
+    
+    width: 100%;
+    height: 600px;
+    background-image: url('/img/Main_page.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.getStarted{
+    position:relative;
+    font-size:80px;
+    top:110px;
+    left:250px;
+
+}
+
+.butttons{
+    position:relative;
+    top:120px;
+    left:270px;
+}
