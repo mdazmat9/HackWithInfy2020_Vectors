@@ -1,8 +1,23 @@
 .map{
     height:100vh;
+    
 }
 
 .navbar-nav > li{
     padding-left:30px;
     padding-right:30px;
+  }
+
+  .info{
+      position: relative;
+      left:70px;
+  }
+
+  .info1{
+      position: relative;
+      left:100px;
+  }
+  .info2{
+    position: relative;
+    left:125px;
   }
