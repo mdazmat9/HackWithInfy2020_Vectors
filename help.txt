@@ -14,4 +14,20 @@ API ENDPOINTS
 
 http://localhost:8090/buses - returns all the BUS IDS in JSON FORMAT
 
-http://localhost:8090/getBusData?id=DMR5054 - returns all the Data related to that bus ID (Sorted according to Time)
+http://localhost:8090/getBusData?id=DMR 5054 - returns all the Data related to that bus ID (Sorted according to Time)
+
+var vehicleString,vehicleArray;
+		fetch("http://localhost:8090/getBusData?id=DMR%205054")
+		.then(respons => respons.json())
+		.then(response => {
+			for(var i=0;i<10;i++){
+				console.log(response[i]);
+			}
+			// vehicleString = response[0].vehicles;
+			// vehicleString = vehicleString.substring(1, vehicleString.length-1);
+			// vehicleArray = vehicleString.split(',')
+			// console.log(vehicleArray);
+			// this.setState({
+			// 	busIdList:vehicleArray
+			// })
+		});
